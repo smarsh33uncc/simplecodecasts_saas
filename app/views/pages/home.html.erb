@@ -3,3 +3,19 @@
     <h1>Welcome to Dev Match.</h1>
     <h3>This is a site for entrepenuers to meet developers.</h3>
 </div>
+<div class="row">
+    <div class="col-md-6">
+        <div class="well">
+            <h2 class="text-center">Basic Membership</h2>
+            <h4>Sign up for free basic access to the community for developers.  You cannot see each users information.</h4>
+            <%= link_to "Sign up for Free", new_user_registration_path, class: 'btn btn-primary btn-lg btn-block' %>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="well">
+            <h2 class="text-center">Pro Membership</h2>
+            <h4>Sign up for our premium accoutn which is very useful for viewing each developers contact information</h4>
+            <%= link_to "Sign up for Premium", new_user_registration_path, class: 'btn btn-success btn-lg btn-block' %>
+        </div>
+    </div>
+</div>
