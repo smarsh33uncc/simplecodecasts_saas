@@ -45,6 +45,7 @@ gem 'devise', '3.4.1'
 # Use Stripe for handling Payments
 gem 'stripe', '1.16.1'
 
+# Use figaro to hise secrte keys
 gem 'figaro', '1.0.0'
 
 # Use ActiveModel has_secure_password
